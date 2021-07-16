@@ -1,6 +1,9 @@
 ---
 role_ap__packages__to_merge:
   - "-firewall"
+  - dawn
+  - procd-ujail
+  - procd-seccomp
 
 role_ap__disabled_services__to_merge:
   - "dnsmasq"
